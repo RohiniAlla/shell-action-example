@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-#repo=$1
-#script=$2
-#shift 2
-url="https://github.com/RohiniAlla/shell-action-example/blob/master/say-hello"
+repo=$1
+script=$2
+shift 2
+url="https://github.com/$repo/blob/master/$script"
 #curl -s $url | bash -s $*
 echo "hi $url"
