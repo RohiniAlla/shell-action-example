@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Run some remote script
-      run: .github/remote-run  
+      run: .github/remote-run  RohiniAlla/shell-action-example say-hello
 
       # name: Run script file
       # run: |
