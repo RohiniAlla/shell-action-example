@@ -27,5 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: .github/remote-run RohiniAlla/shell-action-example say-hello Thor
+        run: .github/remote-run RohiniAlla/shell-action-example say-hello1 Thor
 
