@@ -2,5 +2,5 @@
 repo=$1
 script=$2
 shift 2
-url="https://github.com/$repo/master/$script"
+url="https://github.com/$repo/blob/master/$script"
 curl -s $url | bash -s $*
