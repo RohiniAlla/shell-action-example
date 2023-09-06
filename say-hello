@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-name=${1:-World}
+name="RohiniSuresh"
 echo "Hello $name"
 env
